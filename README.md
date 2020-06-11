@@ -8,6 +8,6 @@ Never let a virus get in the way of getting plastered.
 
 ## How to use
 
-- clone repository 
-- run npm install in the project directory 
-- run npm start
+- clone repository with 'git clone https://github.com/markahenrich/quarantine-mixers.git'
+- run 'npm install' in the project directory 
+- run 'npm start'
