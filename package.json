@@ -1,0 +1,13 @@
+{
+  "name": "quarantine-mixers",
+  "version": "0.1.0",
+  "description": "An app for cocktail recipes when you are stuck at home.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Mark Henrich",
+  "devDependencies": {
+    "electron": "^9.0.3"
+  }
+}
