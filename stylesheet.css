@@ -5,6 +5,32 @@
 }
 
 .nav-bar {
-    background-color: gray;
-    display: inline;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 0 1rem 0;
+}
+
+.nav-bar a {
+    color: black;
+}
+
+.main, .main-categories, .main-random {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* index.html only */
+.main {
+
+}
+
+/* categories.html only */
+.main-categories {
+    
+}
+
+/* random.html only */
+.main-random {
+    
 }
