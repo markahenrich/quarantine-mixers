@@ -1,6 +1,6 @@
 # Quarantine Mixers
 
-## Made with Javascript, HTML, CSS, and Electron JS
+### Made with Javascript, HTML, CSS, and Electron JS
 
 ## Goal
 
