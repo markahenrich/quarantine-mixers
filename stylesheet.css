@@ -33,7 +33,15 @@
     text-align: center;
 }
 
+.main-random {
+    padding: 0 10% 0 10%;
+}
+
 .main-random img{
     width: 40%;
+}
+
+.main-random ul {
+    list-style: none;
 }
 
