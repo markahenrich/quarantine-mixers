@@ -3,3 +3,7 @@ async function getRandom() {
     let data = await response.json();
     return data;
 }
+
+$(document).ready(function(){
+    // code
+});
