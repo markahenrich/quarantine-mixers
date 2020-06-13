@@ -1,5 +1,7 @@
 # Quarantine Mixers
 
+## Made with Javascript, HTML, CSS, and Electron JS
+
 ## Goal
 
 Become an in-home bartender when the bars are closed. 
