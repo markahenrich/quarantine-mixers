@@ -3,3 +3,7 @@ async function getByName(name) {
     let data = await response.json();
     return data;
 } 
+
+$(document).ready(function() {
+    $('.main').append("<h1>Home</h1>");
+});

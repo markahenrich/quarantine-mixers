@@ -1,9 +1,14 @@
 async function getRandom() {
     let response = await fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php');
     let data = await response.json();
-    return data;
+    console.log(data.drinks[0]);
+    return data.drinks[0];
 }
 
-$(document).ready(function(){
-    // code
+$(document).ready(async function() {
+    let drink = await getRandom();
+    
+    $('.main-random').append(`
+    <img src='${drink.strDrinkThumb}'/>
+    <h1>${drink.strDrink}</h1>`);
 });

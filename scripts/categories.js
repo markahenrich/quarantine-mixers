@@ -9,3 +9,7 @@ async function getByIngredient(ingredient) {
     let data = response.json();
     return data;
 }
+
+$(document).ready(function() {
+    $('.main-categories').append("<h1>Categories</h1>");
+});
