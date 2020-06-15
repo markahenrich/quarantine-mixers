@@ -33,13 +33,20 @@
     text-align: center;
 }
 
+/* main.html */
+
+.main img {
+    width: 40%;
+    padding: 1%
+}
+
 /* random.html */ 
 
 .main-random {
     padding: 0 10% 0 10%;
 }
 
-.main-random img{
+.main-random img {
     width: 40%;
 }
 
