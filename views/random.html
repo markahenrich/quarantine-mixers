@@ -5,20 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quarantine Mixers</title>
     <link rel="stylesheet" href="../stylesheet.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
 </head>
 <body>
-    <div class='container'>
-        
-        <div class='nav-bar'>
-            <a href="../index.html">Home</a>
-            <a href="../views/categories.html">Categories</a>
-            <a href="../views/random.html">Random</a>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Qurantine Mixers</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../views/categories.html">Categories</a></li>
+            <li><a href="../views/random.html">Random</a></li>
+          </ul>
         </div>
-        
+    </nav>
+    <div class='container'>
         <div class='main-random'></div>
     </div>
 
     <script src='../node_modules/jquery/dist/jquery.js'></script>
     <script src='../scripts/random.js'></script>
+    <script type="text/javascript" src="../scripts/materialize.min.js"></script>
 </body>
 </html>
