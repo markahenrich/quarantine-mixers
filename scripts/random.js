@@ -14,6 +14,8 @@ $(document).ready(async function() {
     } = drink;
     let ingredients = [strIngredient1, strIngredient2, strIngredient3, strIngredient4, strIngredient5];
     let measures = [strMeasure1, strMeasure2, strMeasure3, strMeasure4, strMeasure5]
+
+    $('#loader-row').remove();
     
     $('.main-random').append(`
     <img src='${drink.strDrinkThumb}'/>
