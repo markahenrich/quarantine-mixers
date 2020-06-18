@@ -4,7 +4,7 @@ async function getByName(name) {
     return data;
 } 
 
-$(document).ready(function() {
+/* $(document).ready(function() {
     $('.main').append(`
         <h1>Quarantine Mixers</h1>
         <br></br>
@@ -27,3 +27,5 @@ $(document).ready(function() {
         </ul>
     `);
 });
+
+*/
