@@ -1,3 +1,10 @@
+#welcome-row {
+    text-align: center;
+} 
+
+#welcome-img {
+    padding: .1%;
+}
 #loader-row {
     margin-top: 50%;
     text-align: center;
