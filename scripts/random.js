@@ -18,12 +18,12 @@ $(document).ready(async function() {
     $('#loader-row').remove();
     
     $('.main-random').append(`
-    <div class="row">
+    <div class="row random-card">
         <div class="col s12 m6 offset-m3">
             <div class="card">
               <div class="card-image">
                 <img src="${drink.strDrinkThumb}">
-                <span class="card-title">${drink.strDrink}</span>
+                <span id="card-title-floating" class="card-title">${drink.strDrink}</span>
                 <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
               </div>
               <div class="card-content">

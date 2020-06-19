@@ -10,7 +10,12 @@
     text-align: center;
 }
 
-.card-title {
+.random-card {
+    margin: 5%;
+}
+
+
+#card-title-floating {
     text-shadow:
         0.05em 0 black,
         0 0.05em black,
