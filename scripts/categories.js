@@ -10,6 +10,11 @@ async function getByIngredient(ingredient) {
     return data;
 }
 
+
+
 $(document).ready(function() {
-    $('.main-categories').append("<h1>Categories</h1>");
+
+    $('.main-categories').append(`
+        
+    `);
 });
