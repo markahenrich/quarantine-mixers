@@ -11,6 +11,8 @@
     <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
 </head>
 <body>
+  
+  <!-- Nav Bar -->
   <nav>
     <div class="nav-wrapper">
       <a href="./index.html" class="brand-logo">Quarantine Mixers</a>
@@ -29,17 +31,37 @@
     <li><a href="../views/random.html">Random</a></li>
   </ul>
 
-    <div class='container'>
-        <div class='main-categories'></div>
-    </div>
+  <!-- Main Content -->
+  <div id="category-container" class='container'>
+      
+  <div id="row1" class="row category-row">
+    <h4>Ingredient</h4>
+    <div class="input-field col s12">
+      <select id='ingredient-input'>
+          <option value="" disabled selected></option>
+      </select>
+      <label>Select Ingredient</label>
+      </div>
+  </div>
+      
+  <div id="row2" class="row category-row">
+      <h4>Category</h4>
+  </div>
 
-    <script src='../node_modules/jquery/dist/jquery.js'></script>
-    <script src='../scripts/categories.js'></script>
-    <script type="text/javascript" src="../scripts/materialize.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $('.sidenav').sidenav();
-      });
-    </script>
+  <div id="row3" class="row category-row">
+      <h4>Letter</h4>
+  </div>
+      
+</div>
+
+  <!-- Scripts -->
+  <script src='../node_modules/jquery/dist/jquery.js'></script>
+  <script src='../scripts/categories.js'></script>
+  <script type="text/javascript" src="../scripts/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+    });
+  </script>
 </body>
 </html>

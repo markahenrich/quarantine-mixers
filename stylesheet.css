@@ -1,19 +1,19 @@
+/* Home Page */
+
 #welcome-row {
     text-align: center;
 } 
 
-#welcome-img {
-    padding: .1%;
-}
 #loader-row {
     margin-top: 30%;
     text-align: center;
 }
 
+/* Random Page*/
+
 .random-card {
     margin: 5%;
 }
-
 
 #card-title-floating {
     text-shadow:
@@ -25,4 +25,22 @@
         -0.05em 0.05em black,
         0.05em -0.05em black,
         0.05em 0.05em black;
+}
+
+/* Category Page */
+
+.category-btn {
+    margin: 1%;
+}
+
+#category-container {
+    margin-top: 5%;
+}
+
+#letter {
+    margin: 0 1% 0 1%;
+}
+
+.category-row {
+    padding: 2% 0 1% 0;
 }
