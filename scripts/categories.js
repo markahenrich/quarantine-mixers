@@ -12,14 +12,39 @@ async function getIngredients() {
 
 async function getByIngredient(ingredient) {
     let response = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=${ingredient}`);
-    let data = response.json();
+    let data = await response.json();
     return data;
-
 }
+
+async function getByLetter(letter) {
+    let response = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?f=${letter}`)
+    let data = await response.json()
+    returnResults(data.drinks)
+}
+
+function returnResults(objects) {
+    $('#results').empty()
+   
+    objects.forEach(object => {
+        $('#results').append(`
+            <ul id='result-collection' class="collection">
+                <li id='result-card' class="collection-item avatar">
+                    <img src="${object.strDrinkThumb}" alt="" class="circle">
+                    <span class="title">${object.strDrink}</span>
+                    <p>${object.strCategory} <br>
+                       ${object.strAlcoholic}
+                    </p>
+                    <a href="#!" class="secondary-content"><i class="material-icons">arrow_forward</i></a>
+                </li>
+            </ul>
+        `)
+    })
+}
+
 
 $(document).ready(async function() {
     let categories = await getCategories()
-    let ingredients = await getIngredients();
+    let ingredients = await getIngredients()
 
     ingredients.forEach(ingredient => {
         $('#ingredient-input').append(`
@@ -40,7 +65,7 @@ $(document).ready(async function() {
 
     letters.forEach(letter => {
         $('#row3').append(`
-            <a id='letter' href='#' >${letter}</a>
+            <a onClick=getByLetter('${letter}') id='letter' href='#' >${letter}</a>
         `);
     });
 });
