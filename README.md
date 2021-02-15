@@ -13,3 +13,13 @@ Never let a virus get in the way of getting plastered.
 - clone repository with 'git clone https://github.com/markahenrich/quarantine-mixers.git'
 - run 'npm install' in the project directory 
 - run 'npm start'
+
+# Screenshots
+
+## Desktop
+<img src="./Images/HomeScreen.png">
+
+<img src="./Images/RandomDrink.png">
+
+## Mobile
+<img src="./Images/m-HomeScreen.png" width="40%"> <img src="./Images/m-Categories.png" width="40%">
