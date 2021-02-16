@@ -14,7 +14,6 @@ Never let a virus get in the way of getting plastered.
 - run 'npm install' in the project directory 
 - run 'npm start'
 
-# Screenshots
 
 ## Desktop
 <img src="./Images/HomeScreen.png">
